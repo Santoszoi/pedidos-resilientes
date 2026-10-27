@@ -1,0 +1,15 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pedidos-resilientes@1.0.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /workspace/scratch/c6ec19030f74/pedidos-resilientes
+
+ ✓ tests/api.test.ts (13 tests) 30ms
+
+ Test Files  1 passed (1)
+      Tests  13 passed (13)
+   Start at  12:47:05
+   Duration  454ms (transform 66ms, setup 0ms, collect 58ms, tests 30ms, environment 0ms, prepare 103ms)
+

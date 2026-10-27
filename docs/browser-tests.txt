@@ -1,0 +1,21 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+[2m[WebServer] [22m(node:32) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+[2m[WebServer] [22mnpm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+[2m[WebServer] [22m(node:45) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:63) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:63) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/flows.spec.ts:3:1 › keeps previous data on failure and recovers with manual retry (3.1s)
+  ✓  2 tests/browser/flows.spec.ts:15:1 › initial failure does not invent data (1.2s)
+  ✓  3 tests/browser/flows.spec.ts:19:1 › timeout allows retry (3.2s)
+  ✓  4 tests/browser/flows.spec.ts:23:1 › cancelled request cannot overwrite a later empty response (6.4s)
+  ✓  5 tests/browser/flows.spec.ts:31:1 › invalid payload produces useful error (1.1s)
+  ✓  6 tests/browser/flows.spec.ts:34:1 › keyboard operates query and mobile page stays within viewport (1.2s)
+
+  6 passed (18.3s)
